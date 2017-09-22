@@ -6,7 +6,7 @@
 
 ホスト：Ubuntu 16.04
 
-で動作確認済。
+で動作確認済。セキュリティの設定は以下。
 
 https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu-16-04  
 
@@ -23,7 +23,7 @@ https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubunt
 
 【使用方法】
 
-1. zipファイルをダウンロードして解凍する。
+1. 右上の Clone or download のボタンから、zipファイルをダウンロードして解凍する。
 
 2. autoupdate.shの12行目を自分の状況に合わせて変更する。
 
