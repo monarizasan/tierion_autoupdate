@@ -5,7 +5,7 @@ printf "password: "
 read password
 stty echo
 
-cat ./ssh_ip.txt | while read line
+cat ./address.txt | while read line
 
 do
 ssh -t -t $line <<EOF
