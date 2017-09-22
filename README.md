@@ -25,7 +25,9 @@ https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubunt
 
 1. zipファイルをダウンロードして解凍する。
 
-2. Nodeのインストールをrootで行なっている場合は、autoupdate.shの12行目、
+2. autoupdate.shの12行目を自分の状況に合わせて変更する。
+
+   例えば、Nodeのインストールをrootで行なっている場合は、autoupdate.shの12行目、
 
    cd chainpoint-node
 
@@ -35,11 +37,11 @@ https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubunt
 
    に変更するか、フルパスに変更する。
 
-3. address.txtに [接続に利用するユーザー名]@[IPアドレス] を1行に1接続先で書き込む。最後の行は必ず改行する。
+3. address.txtに [接続に利用するユーザー名]@[IPアドレス] を1行に1接続先で書き込んで保存する。最後の行は必ず改行する。
 
    ファイアウォール設定済みの場合は、[接続に利用するユーザー名]@[IPアドレス] -p [ポート番号] のように記載する。
    
-4. ダウンロードしたtierion_autoupdate-masterディレクトリ内で、./autoupdate.sh を実行。
+4. ダウンロードしたtierion_autoupdateのディレクトリ内で、./autoupdate.sh を実行。
 
 5. 最初にsudoのためのパスワードを入力する。入力したパスワードは各サーバでsudoコマンドを実行するときに適用される。
 
