@@ -34,7 +34,7 @@ https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubunt
 
    ファイアウォール設定済みの場合は、[接続に利用するユーザー名]@[IPアドレス] -p [ポート番号] のように記載する。
    
-4. tierion_autoupdateディレクトリ内で、./autoupdate.sh を実行。
+4. ダウンロードしたtierion_autoupdate-masterディレクトリ内で、./autoupdate.sh を実行。
 
 5. 最初にsudoのためのパスワードを入力する。入力したパスワードは各サーバでsudoコマンドを実行するときに適用される。
 
