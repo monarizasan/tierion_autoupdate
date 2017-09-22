@@ -47,6 +47,12 @@ https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubunt
 
 6. address.txtに記載した接続先全てで、make down、git pull、make up が実行される。
 
-7. もしお役に立てたらTNTの投げ銭も待ってます・・・まだリワード当たってない・・・
+
+
+   スクリプトは以下のリンクを参考にさせていただきました。
+
+   http://keens.github.io/blog/2015/06/17/shell_scriptwokakutokinikiwotsuketaikoto/
+
+   もしお役に立てたらTNTの投げ銭も待ってます・・・まだリワード当たってない・・・
 
 　　0x6433d48c2Fa6c22536792AB314b974dc7eb9a4e3
