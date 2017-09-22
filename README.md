@@ -25,7 +25,7 @@ https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubunt
 
 1. 右上の Clone or download のボタンから、zipファイルをダウンロードして解凍する。
 
-2. autoupdate.shの12行目を自分の状況に合わせて変更する。
+2. autoupdate.shの12行目を自分の状況に合わせて変更し、ログインした場所からchainpoint-nodeのディレクトリに移動できるようにする。
 
    例えば、Nodeのインストールをrootで行なっている場合は、autoupdate.shの12行目、
 
