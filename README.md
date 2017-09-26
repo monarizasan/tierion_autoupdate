@@ -12,7 +12,7 @@
 https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu-16-04    
   
   
-【前提条件】  
+## 前提条件  
   
 ホスト側のセキュリティ設定は上記リンクのごとく設定し、非rootユーザーで公開鍵認証でログインしたのちに、sudoでroot権限が必要なコマンドを行う設定となっていることが前提。    
   
@@ -22,7 +22,7 @@ https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubunt
   
   
   
-【使用方法】  
+## 使用方法  
   
 1. 右上の Clone or download のボタンから、zipファイルをダウンロードして解凍する。  
   
@@ -30,11 +30,11 @@ https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubunt
   
    例えば、Nodeのインストールをrootで行なっている場合は、autoupdate.shの12行目、  
   
-   cd chainpoint-node  
+   `cd chainpoint-node`  
   
    を  
   
-   cd ~/chainpoint-node  
+   `cd ~/chainpoint-node`  
   
    に変更するか、フルパスに変更する。  
   
@@ -49,7 +49,7 @@ https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubunt
 6. address.txtに記載した接続先全てで、make down、git pull、make up が実行される。  
   
   
-   autoupdate.shの11行目-17行目のヒアドキュメントの中身(<<EOFからEOFまで)を変更すれば、update以外の作業にも応用可能です。  
+   * autoupdate.shの11行目-17行目のヒアドキュメントの中身(<<EOFからEOFまで)を変更すれば、update以外の作業にも応用可能です。  
      
      
   
