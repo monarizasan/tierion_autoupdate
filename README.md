@@ -1,6 +1,7 @@
 # Tierion_autoupdate
 
-複数のノードのgit pullを連続で行うスクリプトです。実行して一度パスワード入力したら、あとは複数のノードを連続でupdateしてくれます。  
+複数のノードのgit pullを連続で行うスクリプトです。実行して一度パスワード入力したら、あとは複数のノードを連続でupdateしてくれます。
+
 セキュリティ設定が関わるスクリプトなので、使用は自己責任でお願いします。スクリプト自体はすごく短いです。  
   
 クライアント：OS X     
@@ -10,6 +11,8 @@
 で動作確認済。セキュリティの設定は以下参照。  
   
 https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu-16-04    
+
+アップデートを完全自動にしてしまいたい方はこのスクリプトではなく、こちらのスクリプトhttps://github.com/monarizasan/tierion_autoupdate_with_cron をご利用ください。
   
   
 ## 前提条件  
